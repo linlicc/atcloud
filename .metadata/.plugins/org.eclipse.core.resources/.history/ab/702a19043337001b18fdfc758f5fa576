@@ -1,0 +1,25 @@
+package br.edu.infnet.modelo;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Pedido {
+	
+	List<Lanche> lanches = new ArrayList<>();
+
+	public Pedido(List<Lanche> lanches) {
+		this.lanches = lanches;
+	}
+
+	public double getTotalPedido() {
+
+		double total = 0;
+
+		for (Lanche lanche : this.lanches) {
+			total = total + lanche.getPreco();
+		}
+
+		return total;
+	}
+
+}

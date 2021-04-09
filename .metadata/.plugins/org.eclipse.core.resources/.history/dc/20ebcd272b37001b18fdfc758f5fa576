@@ -1,0 +1,13 @@
+package br.edu.infnet.testes;
+
+import br.edu.infnet.auxiliar.TipoHamburguer;
+import br.edu.infnet.modelo.Hamburguer;
+import br.edu.infnet.modelo.Lanche;
+
+public class CriarHamburguerTeste {
+	public static void main(String[] args) {
+		
+		Lanche lanche1 = new Hamburguer(1, TipoHamburguer.Xbacon, 2);
+
+	}
+}

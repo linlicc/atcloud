@@ -1,0 +1,7 @@
+package br.edu.infnet.auxiliar;
+
+public enum TipoBatata {
+
+	simples,
+	maluca;
+}

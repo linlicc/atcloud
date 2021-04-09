@@ -1,0 +1,8 @@
+package br.edu.infnet.servico;
+
+public class EscreverMenuService {
+
+	public static void executar() {
+		System.out.println("Escrever menu");
+	}
+}

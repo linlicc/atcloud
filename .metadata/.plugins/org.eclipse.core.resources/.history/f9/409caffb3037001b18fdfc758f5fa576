@@ -1,0 +1,12 @@
+package br.edu.infnet.testes;
+
+import br.edu.infnet.auxiliar.TipoBatata;
+import br.edu.infnet.modelo.Batata;
+import br.edu.infnet.modelo.Lanche;
+
+public class CriarBatataTeste {
+     public static void main(String[] args) {
+		
+    	 Lanche lanche1 = new Batata(1, TipoBatata.simples, 2); 
+   }
+}

@@ -1,0 +1,30 @@
+package br.edu.infnet.modelo;
+
+import br.edu.infnet.auxiliar.TipoCachorroQuente;
+
+public class CachorroQuente extends Lanche {
+	
+	private TipoCachorroQuente tipoCachorroQuente;
+	
+	public CachorroQuente(Integer id, TipoCachorroQuente tipoCachorroQuente, Integer qtd) {
+		super();
+		
+	}
+
+	public TipoCachorroQuente getTipoCachorroQuente() {
+		return tipoCachorroQuente;
+	}
+
+	public void setTipoCachorroQuente(TipoCachorroQuente tipoCachorroQuente) {
+		this.tipoCachorroQuente = tipoCachorroQuente;
+	}
+
+	@Override
+	public String toString() {
+		return "CachorroQuente [tipoCachorroQuente=" + tipoCachorroQuente + "]";
+	}
+	
+	
+	
+
+}

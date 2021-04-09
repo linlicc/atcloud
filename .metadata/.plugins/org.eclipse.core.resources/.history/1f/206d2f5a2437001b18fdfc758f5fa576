@@ -1,0 +1,13 @@
+package br.edu.infnet;
+
+import br.edu.infnet.servico.EscreverMenuService;
+
+public class Aplicacao {
+	public static void main(String[] args) {
+
+		while (true) {
+			Integer opcaoSelecionada = EscreverMenuService.executar();
+
+		}
+	}
+}

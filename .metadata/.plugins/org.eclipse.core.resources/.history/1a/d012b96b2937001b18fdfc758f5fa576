@@ -1,0 +1,26 @@
+package br.edu.infnet.modelo;
+
+import br.edu.infnet.auxiliar.TipoHamburguer;
+
+public class Hamburguer extends Lanche {
+	
+	private TipoHamburguer tipo;
+	
+	public Hamburguer() {
+		super();
+	}
+
+	public TipoHamburguer getTipo() {
+		return tipo;
+	}
+
+	public void setTipo(TipoHamburguer tipo) {
+		this.tipo = tipo;
+	}
+
+	@Override
+	public String toString() {
+		return "Hamburguer [tipo=" + tipo + "]";
+	}
+
+}

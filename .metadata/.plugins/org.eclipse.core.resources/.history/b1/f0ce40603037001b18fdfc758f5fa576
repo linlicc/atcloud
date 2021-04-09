@@ -1,0 +1,25 @@
+package br.edu.infnet.modelo;
+
+import br.edu.infnet.auxiliar.TipoBatata;
+
+public class Batata extends Lanche {
+	private TipoBatata tipo;
+
+	public Batata() {
+		super();
+	}
+
+	public TipoBatata getTipo() {
+		return tipo;
+	}
+
+	public void setTipo(TipoBatata tipo) {
+		this.tipo = tipo;
+	}
+
+	@Override
+	public String toString() {
+		return "Batata [tipo=" + tipo + "]";
+	}
+
+}

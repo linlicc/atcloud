@@ -1,0 +1,40 @@
+package br.edu.infnet.modelo;
+
+import br.edu.infnet.auxiliar.TipoHamburguer;
+
+public abstract class Lanche {
+	
+	private Integer id;
+	private Float preco;
+	
+	public Lanche() {
+		
+	}
+	
+	public Lanche(TipoHamburguer tipo, Integer quantidade) {
+		if (TipoHamburguer.getTipoHamburguer(1) == TipoHamburguer.Xburguer) {
+			this.preco = 10 * quantidade;
+		}
+	}
+
+	public Integer getId() {
+		return id;
+	}
+
+	public void setId(Integer id) {
+		this.id = id;
+	}
+
+	public Float getPreco() {
+		return preco;
+	}
+
+	public void setPreco(Float preco) {
+		this.preco = preco;
+	}
+
+	@Override
+	public String toString() {
+		return "Lanche [id=" + id + ", preco=" + preco + "]";
+	}
+}

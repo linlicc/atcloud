@@ -1,0 +1,19 @@
+package br.edu.infnet.servico;
+
+import java.util.Scanner;
+
+public class EscreverMenuService {
+
+	public static Integer executar() {
+		Scanner scanner = new Scanner(System.in);
+
+		System.out.println("Escolha o seu pedido");
+		System.out.println("1 Hambúrguer Artesanal");
+		System.out.println("2 Batata Rústica");
+		System.out.println("3 Cachorro Quente");
+		
+		Integer selecione=scanner.nextInt();
+		scanner.close();
+		return selecione;
+	}
+}

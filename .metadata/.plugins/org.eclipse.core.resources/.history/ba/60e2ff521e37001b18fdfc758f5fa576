@@ -1,0 +1,10 @@
+package br.edu.infnet;
+
+public class Aplicacao {
+	public static void main(String[] args) {
+
+		while (true) {
+
+		}
+	}
+}

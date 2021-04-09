@@ -1,0 +1,12 @@
+package br.edu.infnet.testes;
+
+import br.edu.infnet.auxiliar.TipoCachorroQuente;
+import br.edu.infnet.modelo.CachorroQuente;
+import br.edu.infnet.modelo.Lanche;
+
+public class CriarCachorroQuenteTeste {
+	public static void main(String[] args) {
+
+		Lanche lanche1 = new CachorroQuente(1, TipoCachorroQuente.salsicha, 2);
+	}
+}

@@ -1,0 +1,31 @@
+package br.edu.infnet.testes;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import br.edu.infnet.auxiliar.TipoBatata;
+import br.edu.infnet.auxiliar.TipoCachorroQuente;
+import br.edu.infnet.auxiliar.TipoHamburguer;
+import br.edu.infnet.modelo.Batata;
+import br.edu.infnet.modelo.CachorroQuente;
+import br.edu.infnet.modelo.Hamburguer;
+import br.edu.infnet.modelo.Lanche;
+
+public class CriarPedidoTeste {
+	public static void main(String[] args) {
+		
+		Lanche lanche1 = new Batata(1, TipoBatata.simples, 2); 
+		Lanche lanche2 = new CachorroQuente(1, TipoCachorroQuente.salsicha, 2);
+		Lanche lanche3 = new Hamburguer(1, TipoHamburguer.Xburguer, 3);
+		
+		List<Lanche> lanches = new ArrayList<>();
+		lanches.add(lanche1);
+		lanches.add(lanche2);
+		lanches.add(lanche3);
+		
+		
+		
+		
+		
+	}
+}
